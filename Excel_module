@@ -9,7 +9,6 @@ for sheet_name in sheet_names :
 
 	xl_sheet = xl_workbook.sheet_by_name(sheet_name)
 	print (sheet_name)
-	row = xl_sheet.nrows
 	col_names = []
 
 	for row_idx in xrange(xl_sheet.nrows) :
